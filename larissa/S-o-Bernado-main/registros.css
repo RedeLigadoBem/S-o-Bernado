@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #979292;
+}
+ 
+header {
+  background-color: #1b1d1b;
+  color: #fff;
+  font-family:  "Bebas Neue", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #979292; /* Adiciona borda inferior */
+  }
+  
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+  
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  border: 2px solid #75da6c; /* Adiciona borda nos links */
+  padding: 5px 10px; /* Adiciona preenchimento nos links */
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #4c8a3d; /* Muda a cor de fundo quando passa o mouse */
+    color: #ffffff; /* Muda a cor do texto quando passa o mouse */
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .itens {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .itens img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .foto {
+    margin-top: 10px;
+    font-style: italic;
+    color: rgb(90, 85, 85);
+  }
+
+  .modft4 {
+    width: 400px;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+    font-family:  "Bebas Neue", sans-serif;
+    border-top: 2px solid #979292; 
+}
